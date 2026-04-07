@@ -46,7 +46,7 @@ name: Terraform Deploy
 
 on:
 push:
-branches: [main]
+branches:
   schedule:
     - cron: '* * * * *'
   workflow_dispatch:
